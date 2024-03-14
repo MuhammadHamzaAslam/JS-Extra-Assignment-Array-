@@ -1,11 +1,13 @@
 var arr = [12,21,22,87,9,2,8,17,56,98,99,23]
 var arr1 = arr.slice(3,11)
-console.log(arr1);
+document.write("<h2>","Orignal Array: ",arr,"</h2>")
+document.write("<h2>","Value after slice","<h2>")
+document.write("<h2>",arr1,"</h2>");
 
 var new1 = [25,19,76,98,74,56,92,91,53]
-document.write("<h1>","Orignal Array: ",new1,"</h1>")
+document.write("<h2>","<br>","Orignal Array: ",new1,"</h2>")
  new1.splice(2,4,4)
- document.write("<h2>","<br>","Value after adding splice:","</h2>");
+ document.write("<h2>","Value after adding splice:","</h2>");
  document.write("<h2>",new1,"</h2>");
 
 
